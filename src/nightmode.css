@@ -1,0 +1,100 @@
+/* Estilos para el modo claro */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transición suave para el fondo y el texto */
+}
+
+/* Estilos para el modo oscuro */
+body.night-mode {
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+body.night-mode .about-me {
+    background-color: #222;
+   
+}
+body.night-mode .about-me-text p{
+    background-color: #222; /* Texto de descripciones a gris claro */
+   
+}
+
+.about-me{
+    color: #000000; /* Texto de descripciones a gris claro */
+    transition: color 0.5s ease; /* Transición suave para el color */ 
+}
+
+
+body.night-mode .project-item {
+    color: #d3d3d3; /* Texto de descripciones a gris claro */
+    transition: color 0.5s ease; /* Transición suave para el color */
+    background-color: black;
+}
+
+/* Cambiar fondo y texto en descripciones de proyectos */
+body.night-mode .project-description {
+    color: #d3d3d3; /* Texto de descripciones a gris claro */
+    transition: color 0.5s ease; /* Transición suave para el color */
+    background-color: #000;
+}
+
+body.night-mode .project-container {
+    background-color: #000; /* Fondo del contenedor a negro */
+    transition: background-color 0.5s ease; /* Transición suave para el fondo */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #02060a;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transición suave para el fondo y el texto de los botones */
+}
+
+body.night-mode button {
+    background-color: #a9a9a9;
+}
+
+button:hover {
+    background-color: #050510; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #1f0423; /* Color por defecto */
+    transition: color 0.5s ease; /* Transición suave para el color */
+}
+
+body.night-mode p {
+    color: #d3d3d3; /* Texto a gris claro */
+    
+}
+
+/* Estilos para los títulos h1 y h3 */
+h3 {
+    color: #1f0423; /* Color por defecto */
+    transition: color 0.5s ease; /* Transición suave para el color */
+}
+
+body.night-mode h1, body.night-mode h3 {
+    color: #d3d3d3; /* Títulos a gris claro brillante */
+}
+
+/* Estilos adicionales */
+body.night-mode .about-me p {
+    color: #d3d3d3; /* Asegurar que los párrafos dentro de 'about-me' también cambien a gris claro */
+}
+
+
+/* Efecto al pasar sobre project-description en modo nocturno */
+body.night-mode .project-item:hover .project-description {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    background-color: #333; /* Fondo gris oscuro en modo nocturno */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto al pasar sobre project-item en modo nocturno */
+body.night-mode .project-item:hover {
+    transform: scale(1.05); /* Escalado suave */
+    transition: transform 0.3s ease; /* Transición suave para el escalado */
+}

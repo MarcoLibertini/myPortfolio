@@ -1,0 +1,45 @@
+/* Ajustes generales para pantallas más pequeñas (por debajo de 768px de ancho) */
+@media (max-width: 768px) {
+
+    /* Centrar el componente about-me */
+    .about-me {
+      width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+      margin: 0 auto; /* Centramos el contenedor */
+      padding: 10px; /* Ajustamos el padding */
+    }
+  
+    .about-me-content {
+      flex-direction: column; /* Cambiamos a diseño vertical */
+      align-items: center; /* Centramos los elementos */
+    }
+  
+    .about-me-image {
+      width: 120px; /* Ajustamos el tamaño de la imagen */
+      margin-bottom: 15px; /* Añadimos espacio entre la imagen y el texto */
+    }
+  
+    .about-me-text {
+      padding-top: 0; /* Quitamos el padding adicional */
+    }
+  
+    /* Ajustes para las tarjetas de proyectos en móvil */
+    .projects {
+      flex-direction: column; /* Las tarjetas se apilan verticalmente */
+    }
+  
+    .project-item {
+      flex-direction: column; /* Cambiamos el diseño de las tarjetas a vertical */
+      width: 90%; /* Que ocupen el 90% del ancho */
+      margin: 10px auto; /* Centramos las tarjetas */
+    }
+  
+    .project-image, .project-description {
+      width: 100%; /* La imagen y la descripción ocupan el ancho completo */
+      margin: 0; /* Sin márgenes extra */
+    }
+  
+    .project-image img {
+      height: auto; /* Mantiene la proporción de la imagen */
+    }
+  }
+  

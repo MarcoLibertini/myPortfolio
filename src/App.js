@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import ToggleButton from './components/ToggleButton'; // Importa el componente ToggleButton
+import './styles.css';
+import './nightmode.css';
 
-function App() {
+const App = () => {
+  const [isNightMode, setIsNightMode] = useState(false);
+
+  const toggleNightMode = () => {
+    setIsNightMode(!isNightMode);
+    document.body.classList.toggle('night-mode', !isNightMode);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToggleButton isNightMode={isNightMode} toggleNightMode={toggleNightMode} />
+      <AboutMe />
+      <Projects />
+      <Contact />
     </div>
   );
-}
+};
 
 export default App;

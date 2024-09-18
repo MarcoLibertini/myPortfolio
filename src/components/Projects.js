@@ -5,9 +5,9 @@ import ProjectItem from './ProjectItem';
 // Array de proyectos
 const projectList = [
   {
-    image: './imgs/aho.png',
-    title: 'Hangman GamePy',
-    description: 'A Python project that imitates the famous Hangman game, where the user guesses a hidden word chosen by the computer by selecting letters. The user has a limited number of attempts, and if they don\'t guess the word within the correct number of attempts, they lose.',
+    image: './imgs/bukowski.jpg',
+    title: 'Bukoswki-Quote-Generator',
+    description: 'Utilizing web scraping techniques with BeautifulSoup, I compiled a list of Charles Bukowski quotes. This React application fetches a random quote from this list on each user interaction.',
     link: 'enlace/a/tu/proyecto1',
     codeLink: 'enlace/a/tu/codigo1'
   },
@@ -49,7 +49,7 @@ const projectList = [
   {
     image: './imgs/mush.png',
     title: 'MagicFun',
-    description: 'A basic magic mushroom classifier and its features.',
+    description: 'A basic project for managing types of mushrooms using Flask, SQL, and JavaScript would involve creating a CRUD (Create, Read, Update, Delete) application.',
     link: 'enlace/a/tu/proyecto1',
     codeLink: 'enlace/a/tu/codigo7'
   },
@@ -66,6 +66,13 @@ const projectList = [
     description: 'A story collector, gathering recounted stories, amusing or not so amusing anecdotes, but ones that are remembered.',
     link: 'enlace/a/tu/proyecto4',
     codeLink: 'enlace/a/tu/codigo9'
+  },
+  {
+    image: './imgs/aho.png',
+    title: 'Hangman GamePy',
+    description: 'A Python project that imitates the famous Hangman game, where the user guesses a hidden word chosen by the computer by selecting letters. The user has a limited number of attempts, and if they don\'t guess the word within the correct number of attempts, they lose.',
+    link: 'enlace/a/tu/proyecto1',
+    codeLink: 'enlace/a/tu/codigo1'
   }
 ];
 

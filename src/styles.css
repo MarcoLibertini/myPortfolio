@@ -16,6 +16,7 @@
   font-family: 'Fjalla One', sans-serif;
 }
 
+
 body {
   display: flex;
   flex-direction: column;
@@ -74,7 +75,8 @@ p {
 }
 
 .projects {
-  padding: 20px;
+  
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +119,7 @@ p {
   padding: 15px;
   background-color: #f9f9f9;
   border-radius: 5px;
-  border-left: 8px solid #6f42c1;
+  border-left: 8px solid var(--color-selected);
   margin-left: 10px;
   flex-grow: 1;
   text-align: justify;
@@ -235,7 +237,8 @@ p {
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   body {
-    padding: 20px;
+    padding: 10px;
+    padding-right: 50px;
   }
 
   .about-me {
@@ -273,7 +276,7 @@ p {
   }
 
   .project-item {
-    margin: 10px 0;
+    margin: 10px;
   }
 
   .project-image {
@@ -289,3 +292,4 @@ p {
     width: 100px;
   }
 }
+

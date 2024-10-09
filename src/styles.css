@@ -1,5 +1,3 @@
-/* Estilos generales */
-
 :root {
   --color-primario: #E6EDF3;
   --color-primario-apagado: #C9D1D9;
@@ -27,7 +25,6 @@ body {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 1.8rem;
 }
 
@@ -55,7 +52,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 .about-me-image {
@@ -65,7 +61,7 @@ p {
   margin-right: 20px;
 }
 
-.about-me-text {
+.about-me-text, .contact {
   text-align: center;
 }
 
@@ -160,18 +156,11 @@ p {
   cursor: pointer;
 }
 
-.contact {
-  width: 100%;
-  text-align: center;
-}
-
 .contact h2 {
   margin-bottom: 20px;
 }
 
 .contact ul {
-  display: flex;
-  justify-content: center;
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -192,16 +181,23 @@ p {
 
 .toggle-button {
   position: fixed;
-  top: 20px;
   right: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 8px;
+  font-size: 10px;
   border: none;
   border-radius: 5px;
   background-color: var(--color-bordes);
   color: var(--color-primario);
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.toggle-button:nth-of-type(1) {
+  top: 20px;
+}
+
+.toggle-button:nth-of-type(2) {
+  top: 60px;
 }
 
 .toggle-button:hover {
@@ -224,6 +220,31 @@ p {
 .project-description a:hover {
   background-color: var(--color-secundario);
   color: var(--color-fondo);
+}
+
+.button-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1000;
+}
+
+.language-toggle {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-toggle:hover {
+  background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
@@ -256,6 +277,18 @@ p {
     width: 100%;
     margin-left: 0;
     border-left: none;
+  }
+
+  .button-container {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .language-toggle {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 6px 10px;
   }
 }
 

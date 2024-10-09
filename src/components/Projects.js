@@ -11,6 +11,7 @@ const Projects = ({ language }) => {
       <h2>{language === 'en' ? 'Projects' : 'Proyectos'}</h2>
       {projects.map((project, index) => (
         <ProjectItem
+          language={language}
           key={index}
           image={project.image}
           title={project.title}

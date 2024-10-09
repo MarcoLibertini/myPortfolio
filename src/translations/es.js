@@ -56,11 +56,11 @@ export const projectContent = [
       codeLink: 'enlace/a/tu/codigo8'
     },
     {
-      image: './imgs/astro.jpg',
-      title: 'Recopilador de Historias',
-      description: 'Un recopilador de historias, reuniendo historias contadas, anécdotas divertidas o no tan divertidas, pero que son recordadas.',
+      image: './imgs/knowYou.jpg',
+      title: 'KnowYou',
+      description: 'Proyecto en Python sobre reconocimiento facial, adaptado para funcionar con una cámara de ordenador en movimiento. Utiliza la biblioteca face_recognition y un banco de imágenes para el reconocimiento',
       link: 'enlace/a/tu/proyecto4',
-      codeLink: 'enlace/a/tu/codigo9'
+      codeLink: 'https://github.com/MarcoLibertini/KnowYou/tree/master'
     },
     {
       image: './imgs/aho.png',

@@ -11,28 +11,28 @@ export const projectContent = [
       title: 'BeerInvaders GamePy',
       description: 'A Python project using the pyGame library that is an imitation of the classic Space Invaders game, reimagined as Beer Invaders. In this game, an alien shoots beer at friends.',
       link: '#',
-      codeLink: 'enlace/a/tu/codigo2'
+      codeLink: 'https://github.com/MarcoLibertini/BeerInvaders'
     },
     {
       image: './imgs/teslaSpace.jpg',
       title: 'System Tesla/SpaceX',
       description: 'A C# project built with Windows Forms that controls registrations, deregistrations, and modifications of Tesla and SpaceX vehicles. It also performs checks on the vehicles.',
       link: 'enlace/a/tu/proyecto3',
-      codeLink: 'enlace/a/tu/codigo3'
+      codeLink: 'https://github.com/MarcoLibertini/TeslaSpaceXSystem'
     },
     {
       image: './imgs/dangerzone.jpg',
       title: 'Danger Zone',
       description: 'This project utilizes a dataset of crimes in the United States to create a Kmeans model. The model categorizes areas into low, medium, and high danger levels and maps them with characteristic colors.',
       link: 'enlace/a/tu/proyecto1',
-      codeLink: 'enlace/a/tu/codigo4'
+      codeLink: 'https://github.com/MarcoLibertini/Danger-Zone-Classifier/blob/main/DangerZone.ipynb'
     },
     {
       image: './imgs/beerSelector.jpg',
       title: 'Beer Recommendation',
       description: 'Using data analysis on a dataset of beer-related information, this project creates a machine learning model. The model recommends beers based on user preferences, with an interactive method for modifying preferences.',
       link: 'enlace/a/tu/proyecto2',
-      codeLink: 'enlace/a/tu/codigo5'
+      codeLink: 'https://github.com/MarcoLibertini/Beer-Recommendation-System/blob/main/Beer-Recommendation-System.ipynb'
     },
     {
       image: './imgs/dashboard.jpg',
@@ -53,20 +53,20 @@ export const projectContent = [
       title: 'Spotify Classifier',
       description: 'Spotify theme classifier, evaluating whether a user might like a track based on its features, using data analysis and a machine learning model.',
       link: 'enlace/a/tu/proyecto2',
-      codeLink: 'enlace/a/tu/codigo8'
+      codeLink: 'https://github.com/MarcoLibertini/Spotify-categorizer/blob/main/Proyecto_Canciones_Spotify.ipynb'
     },
     {
-      image: './imgs/astro.jpg',
-      title: 'Story Collector',
-      description: 'A story collector, gathering recounted stories, amusing or not so amusing anecdotes, but ones that are remembered.',
+      image: './imgs/knowYou.jpg',
+      title: 'KnowYou',
+      description: 'A Python project focused on facial recognition, designed to operate with a moving computer camera. It uses the face_recognition library and a database of images for recognition.',
       link: 'enlace/a/tu/proyecto4',
-      codeLink: 'enlace/a/tu/codigo9'
+      codeLink: 'https://github.com/MarcoLibertini/KnowYou/tree/master'
     },
     {
       image: './imgs/aho.png',
       title: 'Hangman GamePy',
       description: 'A Python project that imitates the famous Hangman game, where the user guesses a hidden word chosen by the computer by selecting letters. The user has a limited number of attempts, and if they don\'t guess the word within the correct number of attempts, they lose.',
       link: 'enlace/a/tu/proyecto1',
-      codeLink: 'enlace/a/tu/codigo1'
+      codeLink: 'https://github.com/MarcoLibertini/Portfolio/blob/main/Ahorcado.py'
     }
   ]

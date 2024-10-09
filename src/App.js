@@ -7,6 +7,8 @@ import ToggleButton from './components/ToggleButton';
 import './styles.css';
 import './nightmode.css';
 
+
+
 const App = () => {
   const [isNightMode, setIsNightMode] = useState(false);
   const [language, setLanguage] = useState('en'); // Estado para manejar el idioma

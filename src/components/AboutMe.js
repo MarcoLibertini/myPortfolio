@@ -11,7 +11,7 @@ const AboutMe = ({ language }) => {
     },
     es: {
       title: "¡Hola! Soy Marco!",
-      description: `Vengo de un trasfondo diferente al de mis compañeros, pero lo veo como una ventaja.
+      description: `Vengo de un background diferente al de mis pares, pero lo veo como una ventaja.
                     He acumulado 15 años de experiencia en soporte técnico, diseño, resolución de problemas
                     y atención al cliente. Hoy, finalmente me he convertido en programador, algo que siempre me ha encantado desde niño!`,
     },

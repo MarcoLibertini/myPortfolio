@@ -1,4 +1,4 @@
-/* Estilos generales (ya existentes) */
+/* Estilos generales */
 
 :root {
   --color-primario: #E6EDF3;
@@ -16,7 +16,6 @@
   font-family: 'Fjalla One', sans-serif;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -25,10 +24,6 @@ body {
   min-height: 100vh;
   text-align: center;
   padding: 50px;
-}
-
-h1, p {
-  margin: 0;
 }
 
 h1 {
@@ -43,8 +38,8 @@ p {
 
 .about-me, .projects, .contact {
   margin: 20px;
-  width: 100%; /* Asegura que ocupe el ancho completo */
-  max-width: 800px; /* Limita el ancho máximo */
+  width: 100%;
+  max-width: 800px;
 }
 
 .about-me {
@@ -52,14 +47,14 @@ p {
   background-color: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex; /* Usar flexbox para el contenido */
-  align-items: center; /* Centrar verticalmente */
+  display: flex;
+  align-items: center;
 }
 
 .about-me-content {
   display: flex;
-  flex-direction: column; /* Apilar elementos verticalmente */
-  align-items: center; /* Centrar horizontalmente */
+  flex-direction: column;
+  align-items: center;
   position: relative;
 }
 
@@ -67,7 +62,7 @@ p {
   width: 150px;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-right: 20px; /* Espacio entre la imagen y el texto */
+  margin-right: 20px;
 }
 
 .about-me-text {
@@ -75,8 +70,6 @@ p {
 }
 
 .projects {
-  
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,8 +171,8 @@ p {
 
 .contact ul {
   display: flex;
-  justify-content: center; /* Centra horizontalmente los elementos de la lista */
-  gap: 20px; /* Espacio entre los elementos */
+  justify-content: center;
+  gap: 20px;
   list-style: none;
   padding: 0;
 }
@@ -197,7 +190,6 @@ p {
   color: #0073b1;
 }
 
-/* Estilos generales para el botón de alternancia */
 .toggle-button {
   position: fixed;
   top: 20px;
@@ -217,28 +209,26 @@ p {
 }
 
 .project-description a {
-  text-decoration: none; /* Quitar el subrayado */
-  color: var(--color-selected); /* Color verde chicle */
-  margin-right: 10px; /* Separar los enlaces entre ellos */
-  margin-top: 5px; /* Añadir espacio entre la descripción y los enlaces */
-  padding: 10px 15px; /* Espaciado dentro del enlace */
-  border-radius: 5px; /* Bordes redondeados */
-  display: inline-block; /* Asegura que el margen superior se respete */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
-  cursor: pointer; /* Cambiar cursor a pointer */
+  text-decoration: none;
+  color: var(--color-selected);
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
   font-weight: bold;
 }
 
 .project-description a:hover {
-  background-color: var(--color-secundario); /* Color de fondo al hacer hover */
-  color: var(--color-fondo); /* Cambiar color del texto al hacer hover */
+  background-color: var(--color-secundario);
+  color: var(--color-fondo);
 }
 
-/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   body {
-    padding: 10px;
-    padding-right: 50px;
+    padding: 10px 50px 10px 10px;
   }
 
   .about-me {
@@ -248,8 +238,7 @@ p {
   }
 
   .about-me-image {
-    margin-right: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px;
     width: 120px;
   }
 
@@ -260,13 +249,13 @@ p {
 
   .project-image {
     width: 100%;
-    height: 200px; /* Ajusta el tamaño de la imagen */
+    height: 200px;
   }
 
   .project-description {
     width: 100%;
     margin-left: 0;
-    border-left: none; /* Elimina el borde izquierdo */
+    border-left: none;
   }
 }
 
@@ -280,7 +269,7 @@ p {
   }
 
   .project-image {
-    height: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px;
   }
 
   .toggle-button {
@@ -292,4 +281,3 @@ p {
     width: 100px;
   }
 }
-
